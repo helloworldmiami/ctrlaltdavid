@@ -156,7 +156,7 @@ body {
   .parallax-container .section {
     top:20%;
   }
-  .section #languages {
+  #languages .section {
     top:0%;
   }
   #languages h5 {
