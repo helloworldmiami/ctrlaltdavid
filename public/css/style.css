@@ -132,3 +132,7 @@ ul.social-buttons li a:hover {
 #contact h4 {
   margin-bottom:0;
 }
+
+body {
+  font-family:monospace;  
+}
