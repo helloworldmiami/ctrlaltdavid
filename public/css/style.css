@@ -134,5 +134,35 @@ ul.social-buttons li a:hover {
 }
 
 body {
-  font-family:monospace;  
+  font-family:monospace;
+}
+
+@media (max-width:1205px) {
+  .card-title {
+    font-size:18px!important;
+  }
+}
+
+@media (max-width:825px) {
+  .card-title {
+    font-size:12px!important;
+  }
+}
+
+@media (max-width:600px) {
+  .card-title {
+    font-size:24px!important;
+  }
+  .parallax-container .section {
+    top:20%;
+  }
+  #languages {
+    top:0%;
+  }
+  #languages h5 {
+    font-size:14px;
+  }
+  #index-banner .container {
+    transform: translateY(10%)!important;
+  }
 }
